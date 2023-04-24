@@ -23,7 +23,6 @@ def ordinalSuffix(number):
 
     return numberStr + "th"
     
-    
 assert ordinalSuffix(0) == '0th'
 
 assert ordinalSuffix(1) == '1st'
