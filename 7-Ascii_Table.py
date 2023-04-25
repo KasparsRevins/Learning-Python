@@ -18,7 +18,6 @@ Write a printASCIITable() function that displays the ASCII number and its corres
 
 Your solution is correct if calling printASCIITable() displays output that looks like the following:
 """
-
 def printASCIITable():
     for i in range(32,127):
         print(i,chr(i))
