@@ -18,5 +18,4 @@ def getChessSquareColor(column, row):
     else:
         print("Black")
     
-
 getChessSquareColor(0,6)
