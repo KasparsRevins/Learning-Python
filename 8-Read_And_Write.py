@@ -15,13 +15,11 @@ def writeToFile(filename, text):
         filename.write(text)
 
  
-
 def appendToFile(filename, text):
     with open(filename, "a") as fileObj:
         filename.write(text)
 
  
-
 def readFromFile(filename):
     with open(filename) as fileObj:
         return filename.read()
