@@ -10,6 +10,7 @@ If the amount for the hours, minutes, or seconds is zero, don’t show it: the f
 The only exception is that getHoursMinutesSeconds(0) should return '0s'.
 """
 
+
 def getHoursMinutesSeconds(totalSeconds):
     if totalSeconds == 0:
         return '0s'
