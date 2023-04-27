@@ -21,6 +21,7 @@ def findAndReplace(text, oldText, newText):
             i += 1
     return replacedText
 
+
 findAndReplace('The fox', 'fox', 'dog')
 findAndReplace('fox', 'fox', 'dog')
 findAndReplace('Firefox', 'fox', 'dog')
