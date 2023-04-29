@@ -9,7 +9,6 @@ Exercise Description
 Write an average() function that has a numbers parameter. This function returns the statistical average of the list of integer and floating-point numbers passed to the function. 
 While Python’s built-in sum() function can help you solve this exercise, try writing the solution without using it.
 """
-
 def average(numbers):
     if not numbers:
         return None
