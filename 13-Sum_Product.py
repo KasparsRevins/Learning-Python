@@ -10,7 +10,6 @@ The calculateSum() function adds these numbers and returns the sum while the cal
 If the list passed to calculateSum() is empty, the function returns 0. 
 If the list passed to calculateProduct() is empty, the function returns 1. Since this function replicates Python’s sum() function, your solution shouldn’t call.
 """
-
 def calculateSum(numbers):
     if not numbers:
         return 0
