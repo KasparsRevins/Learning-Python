@@ -10,7 +10,6 @@ Exercise Description
 Write a getSmallest() function that has a numbers parameter. The numbers parameter will be a list of integer and floating-point number values. The function returns the smallest value in the list. 
 If the list is empty, the function should return None. Since this function replicates Python’s min() function, your solution shouldn’t use it.
 """
-
 def smallestNumber(N):
  
     print((N % 9 + 1) * pow(10, (N // 9)) - 1)
