@@ -9,7 +9,6 @@ Exercise Description
 Write a mode() function that has a numbers parameter. 
 This function returns the mode, or most frequently appearing number, of the list of integer and floating-point numbers passed to the function.
 """
-
 def mode(numbers):
     if not numbers:
         return None
