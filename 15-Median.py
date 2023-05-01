@@ -28,7 +28,6 @@ def median(numbers):
     
 
 
-
 assert median([]) == None
 
 assert median([1, 2, 3]) == 2
