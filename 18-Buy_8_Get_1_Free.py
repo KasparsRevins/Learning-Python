@@ -32,7 +32,6 @@ assert getCostOfCoffee(9, 2.50) == 20
 
 assert getCostOfCoffee(10, 2.50) == 22.50
 
- 
 
 for i in range(1, 4):
 
