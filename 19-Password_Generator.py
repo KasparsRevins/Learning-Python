@@ -11,7 +11,6 @@ The password string returned by the function must have at least one lowercase le
 """
 
 
-
 lowerCase = "abcdefghijklmnopqrstuvwxyz"
 upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 numbers = "1234567890"
