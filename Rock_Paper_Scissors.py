@@ -7,12 +7,21 @@ This exercise involves determining a game’s outcome given the moves of the two
 def rpsWinner(player1,player2):
     if player1 == player2:
         return "tie"
-    
-    if player1 == "rock" and player2 == "paper" or player1 == "paper" and player2 == "scissors" or player1 == "scissors" and player2 == "rock":
-        return "player two"
-    
-    if player1 == "rock" and player2 == "scissors" or player2 == "paper" and player1 == "scissors" or player2 == "scissors" and player1 == "rock" or player2 == "rock" and player1 == "paper":
-        return "player one"
+    elif player1 == "rock":
+        if player2 == "scissors":
+            return "player one"
+        else:
+            return "player two"
+    elif player1 == "paper":
+        if player2 == "rock":
+            return "player one"
+        else:
+            return "player two"
+    elif player1 == "scissors":
+        if player2 == "paper":
+            return "player one"
+        else:
+            return "player two"
     
 
 assert rpsWinner('rock', 'paper') == 'player two'
