@@ -5,7 +5,7 @@ Long, tedious activities are the perfect task for computers. In this exercise, y
 bottles = 10
 while bottles > 0:
     if bottles == 1:
-        print(str(bottles) + " bottles of beer on the wall,\n " + str(bottles) + " bottles of beer,\n Take one down,\n Pass it around," )
+        print(str(bottles) + " bottle of beer on the wall,\n " + str(bottles) + " bottle of beer,\n Take one down,\n Pass it around," )
         print("No more bottles of beer on the wall!")
         break
     print(str(bottles) + " bottles of beer on the wall,\n " + str(bottles) + " bottles of beer,\n Take one down,\n Pass it around," )
