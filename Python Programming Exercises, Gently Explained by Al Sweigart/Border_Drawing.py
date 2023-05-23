@@ -6,8 +6,8 @@ the - dash character for horizontal lines, and the | pipe character for vertical
 
 def drawBorder(width,height):
     counter = 0
-    if width or height < 2:
-        print("")
+    if width < 2 or height < 2:
+        return
     while True:
         counter +=1
         if height == counter:
