@@ -77,23 +77,26 @@ def compMove():
     return move
     
 
-def selectRandom(board):
-    
+def selectRandom(li):
+    import random
+    ln = len(li)
+    r = random.randrange(0,ln)
+    return li[r]
 
 def isBoardFull(board):
     if board.count(" ") > 1:
-        return True
-    else:
         return False
+    else:
+        return True
 
 def main():
     print("Tic Tac Toe game")
-    printBoard()
+    printBoard(board)
 
     while not(isBoardFull(board)):
         if not(isWinner(board,"O")):
             playerMove()
-            printBoard()
+            printBoard(board)
         else:
             print("AI wins this time!")
             break
@@ -102,9 +105,9 @@ def main():
             if move == 0:
                 print("Tie game!")
             else:
-                insertLetter("O", board)
+                insertLetter("O", move)
                 print("Computer placed an \" O\" in postition", move, ":")
-                printBoard()
+                printBoard(board)
         else:
             print("Congrats you won!")
             break
