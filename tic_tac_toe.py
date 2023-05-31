@@ -61,9 +61,24 @@ def compMove():
     for i in possibleMoves:
         if i in [1,3,7,9]:
             cornersOpen.append[i]
+    if len(cornersOpen) > 0:
+        move = selectRandom(cornersOpen)
+        return move
+    if 5 in possibleMoves:
+        move = 5
+        return move
+    edgesOpen = []
+    for i in possibleMoves:
+        if i in [2,4,6,8]:
+            edgesOpen.append[i]
+    if len(edgesOpen) > 0:
+        move = selectRandom(edgesOpen)
+    
+    return move
+    
 
 def selectRandom(board):
-    pass
+    
 
 def isBoardFull(board):
     if board.count(" ") > 1:
